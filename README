@@ -1,6 +1,6 @@
-以EcmaScript 5为起点，遵循CommonJS中Modules/Wrappings规范的define形式，运行于web浏览器中的JS框架
+以EcmaScript5 为开发启点，遵循CommonJS中Modules/Wrappings规范的define形式，运行于web浏览器中的JS框架
 
-加入以下EcmaScript 5内容
+加入以下EcmaScript5 内容
 ===============
 
  * Array.prototype.forEach 遍历数组中的每一项
@@ -13,6 +13,9 @@
  * String.prototype.trim
  * Date.now
 
+EcJs中默认加入了以下内容
+===============
+
   - EcJs.type(obj) 返回变量的类型 支持 Boolean Number String Function Array Date RegExp Object 类型
   - EcJs.mix(rec, sup, deep) 对象混合函数，支持深层混合
   - EcJs.guid() 得到一个唯一的数字ID
@@ -20,5 +23,7 @@
   - EcJs.load(ids, factory, forUrl)
   - define(id, deps, factory) 模块注册函数
 
-EcJs.load/define的实现来源于玉伯的，谢之! https://github.com/seajs/seajs
+感谢
+==============
 
+EcJs.load/define的实现来源于玉伯的，谢之! https://github.com/seajs/seajs
