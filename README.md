@@ -22,5 +22,3 @@
   - define(id, deps, factory) 模块注册函数
 
 # 感谢
-
-EcJs.load/define的实现来源于玉伯的[seajs](https://github.com/seajs/seajs)，谢之!
