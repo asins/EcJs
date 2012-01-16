@@ -2,12 +2,11 @@
 
 # 加入以下EcmaScript5 内容
 
- * Array.prototype.forEach 遍历数组中的每一项
- * Array.prototype.indexOf 正向查找
- * Array.prototype.lastIndexOf 逆向查找
- * Array.prototype.filter 从一个数组中选出符合条件的元素，不过并不改变原来的数组
- * Array.prototype.map  对一个数组每一个元素执行函数并把结果作为一个数组返回
- * Object.create
+ * Array.prototype.forEach
+ * Array.prototype.indexOf
+ * Array.prototype.lastIndexOf
+ * Array.prototype.filter
+ * Array.prototype.map
  * Function.prototype.bind
  * String.prototype.trim
  * Date.now
@@ -16,7 +15,7 @@
 
   - EcJs.type(obj) 返回变量的类型 支持 Boolean Number String Function Array Date RegExp Object 类型
   - EcJs.mix(rec, sup, deep) 对象混合函数，支持深层混合
-  - EcJs.guid() 得到一个唯一的数字ID
+  - EcJs.guid() 得到一个唯一的ID
   - EcJs.later() 延时执行
   - EcJs.load(ids, factory, forUrl)
   - define(id, deps, factory) 模块注册函数
